@@ -1,0 +1,53 @@
+.linea{
+    color: $color4;
+    width: 100%;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    margin-left: 320px;
+    color: $color5;
+    font-weight: bold;
+}
+.contenido a{ 
+    color: $color5;
+    font-size:1.3rem;
+    font-weight:normal;
+    line-height: 2;
+    margin-left: 1rem;
+}
+.contactos{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: $color5;
+    font-weight: bold;
+}
+.contactos h5{
+    line-height: 1.5;
+}
+/*
+.redes{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    color:#f6f6f6;
+}
+.redes a{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    margin-left: 1rem;
+}
+*/
+.legales{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    font-size:x-small;
+    font-weight: bold;
+    color: $color5;
+}

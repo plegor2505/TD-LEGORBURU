@@ -1,0 +1,25 @@
+.titContactanos{
+    font-size: 40px;
+    font-weight:bold;
+    color: $color3;
+    text-align: center;
+}
+.forMensaje{
+    background-color: $color3;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width:40%;
+    font-weight: bold;
+    font-size: larger;
+    color: $color1;
+}
+.btnEnviar{
+    background-color:$color4;
+    width: 9rem;
+    height: 4rem;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    color: $color1;
+    margin: 5px 5px;
+}

@@ -1,12 +1,5 @@
 @import "./Utilities/variables";
 @import "./Base/settings";
-@mixin titulo(){
-    font-size: 55px;
-        font-weight:bold;
-        color: $color3;
-        margin-top: 2rem;
-        margin-left: 3rem; 
-}
 @mixin bajada(){
     font-size: 30px;
     text-align: justify;
@@ -20,8 +13,8 @@
 @import "./Layout/header";
 @import "./Layout/footer";
 @import "./Layout/mainInicio";
-@import "./Layout/mainQsomos";
-@import "./Layout/mainPyS";
-@import "./Layout/mainPubli";
-@import "./Layout/mainObserv";
-@import "./Layout/contactanos";
+@import "./Layout/mainQSomos";
+@import "./Layout/mainPPyS";
+@import "./Layout/mainPubyNews";
+@import "./Layout/mainObsDD";
+@import "./Layout/Contactanos";

@@ -1,6 +1,7 @@
  /* CSS MAIN PAGE PROGRAMAS Y SERVICIOS */
-.titulo{
-   @include titulo();
+.tituloP{
+   @extend .tituloI;
+   font-size: 55px;
+   margin: 2rem 0rem 0rem 3rem;
 }
-
     /* FIN CSS MAIN PAGE PROGRAMAS Y SERVICIOS */

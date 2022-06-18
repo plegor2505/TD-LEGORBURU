@@ -1,7 +1,6 @@
-.titContactanos{
-    font-size: 40px;
-    font-weight:bold;
-    color: $color3;
+.tituloC{
+    @extend .tituloI;
+    font-size: 45px;
     text-align: center;
 }
 .forMensaje{

@@ -1,6 +1,6 @@
 .tituloP{
     @extend .tituloI;
-    font-size: 55px;
+    font-size: $fsize - 5;
     margin: 2rem 0rem 0rem 3rem;
 }
 .bgsection{
@@ -66,11 +66,7 @@
     margin-top: 190px;
 }
 .transparencia{
-    font-size:xx-large;
-    font-weight: bold;
-    color: $color1;
-    width: 300px;
-    height:auto;
+   @extend .innovacion;
     margin-bottom: 00px;
     margin-left: 0px;
     margin-top: 20px;
@@ -81,33 +77,21 @@
     margin-top: 200px;
 }
 .eficiencia{
-    font-size:xx-large;
-    font-weight: bold;
-    color: $color1;
-    width: 300px;
-    height:auto;
+    @extend .innovacion;
     margin-bottom: 300px;
     margin-left: 45px;
     margin-top: 20px;
 }
 .valores2{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-content: center;
-    height: 250px; 
-    margin-left: 90px;
+    @extend .valores1;
+    margin-top: 50px;
 }
 .icoInt{
     margin-left: 40px;
     height: auto;
 }
 .integridad{
-    font-size:xx-large;
-    font-weight: bold;
-    color: $color1;
-    width: 300px;
-    height:auto;
+    @extend .innovacion;
     margin-bottom: 10px;
     margin-left: 25px;
     margin-top: 20px;
@@ -117,11 +101,7 @@
     height: auto;
 }
 .calidad{
-    font-size:xx-large;
-    font-weight: bold;
-    color: $color1;
-    width: 300px;
-    height:auto;
+    @extend .innovacion;
     margin-bottom: 100px;
     margin-left: 40px;
     margin-top: 20px;
@@ -132,11 +112,7 @@
     margin-right: 20px;
 }
 .compromiso{
-    font-size:xx-large;
-    font-weight: bold;
-    color: $color1;
-    width: 300px;
-    height:auto;
+    @extend .innovacion;
     margin-bottom: 100px;
     margin-right: 20px;
     margin-top: 20px;

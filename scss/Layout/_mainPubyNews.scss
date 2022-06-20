@@ -1,11 +1,18 @@
 .tituloP{
     @extend .tituloI;
-    font-size: 55px;
+    font-size: $fsize - 5;
     margin: 2rem 0rem 0rem 3rem;
 }
-.bajada{
-    @include bajada();
-}
+.bajada2{
+    font-size: 30px;
+    text-align: justify;
+    color: $color5;
+    line-height: 1.4;
+    padding: 3rem ;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    border-bottom: solid 1px $color5;
+  }
 .carrousel{
 width: 40%;
 height: auto;

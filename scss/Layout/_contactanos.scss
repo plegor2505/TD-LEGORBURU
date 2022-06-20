@@ -1,7 +1,9 @@
 .tituloC{
     @extend .tituloI;
-    font-size: 45px;
+    font-size: $fsize - 15;
     text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
 }
 .forMensaje{
     background-color: $color3;

@@ -1,53 +1,65 @@
-.linea{
-    color: $color4;
+.fContainer{
+    display: grid;
     width: 100%;
-}
-.contenido{
-    display: flex;
-    flex-direction: column;
+    height: auto;
     padding-top: 1rem;
-    margin-left: 320px;
-    color: $color5;
+    margin-top: 1rem;
+    border-top: solid 2px $color5;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40px 220px 30px;
+    grid-template-areas: 
+    "ftitulos ftitulos   ftitulos"
+    "fMenu    fContacto  fRedes"
+    "legal     legal      legal";
+}
+.ftitulos{
+    grid-area: ftitulos;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: $color3;
     font-weight: bold;
 }
-.contenido a{ 
+.fMenu{
+    grid-area: fMenu;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    margin-left: 140px;
+    font-size: 1.3rem;
+    a{
     color: $color5;
-    font-size:1.3rem;
-    font-weight:normal;
-    line-height: 2;
-    margin-left: 1rem;
+    }
 }
-.contactos{
+.fContacto{
+    grid-area: fContacto;
     display: flex;
     flex-direction: column;
-    padding-top: 1rem;
-    display: flex;
-    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    padding-top: 10px;
+    margin-left: 170px;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
     color: $color5;
-    font-weight: bold;
 }
-.contactos h5{
-    line-height: 1.5;
-}
-/*
-.redes{
+.fRedes{
+    grid-area: fRedes;
     display: flex;
     flex-direction: column;
-    padding-top: 2rem;
-    color:#f6f6f6;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-right: 45px;
+    margin-bottom: 20px;
 }
-.redes a{
+.legal{
+    grid-area: legal;
     display: flex;
-    flex-direction: column;
-    line-height: 2;
-    margin-left: 1rem;
-}
-*/
-.legales{
-    display: flex;
+    background-color: rgb(15, 15, 15);
     justify-content:center;
     align-items:center;
-    font-size:x-small;
-    font-weight: bold;
-    color: $color5;
+    padding-top: 15px;
+    color: $color4
 }

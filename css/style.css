@@ -9,12 +9,12 @@ body {
   background: #040d20;
   font-family: 'League Spartan', sans-serif; }
 
-/*li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}*/
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
 /*mixin ----*/
 .header {
   background-color: #1E56A0; }
@@ -47,58 +47,66 @@ a{
   margin-right: 30px;
   margin-left: 5px; }
 
-.linea {
-  color: #D6E4F0;
-  width: 100%; }
-
-.contenido {
-  display: flex;
-  flex-direction: column;
+.fContainer {
+  display: grid;
+  width: 100%;
+  height: auto;
   padding-top: 1rem;
-  margin-left: 320px;
-  color: #f6f6f6;
+  margin-top: 1rem;
+  border-top: solid 2px #f6f6f6;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 40px 220px 30px;
+  grid-template-areas: "ftitulos ftitulos   ftitulos" "fMenu    fContacto  fRedes" "legal     legal      legal"; }
+
+.ftitulos {
+  grid-area: ftitulos;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  color: burlywood;
   font-weight: bold; }
 
-.contenido a {
-  color: #f6f6f6;
-  font-size: 1.3rem;
-  font-weight: normal;
-  line-height: 2;
-  margin-left: 1rem; }
-
-.contactos {
+.fMenu {
+  grid-area: fMenu;
   display: flex;
   flex-direction: column;
-  padding-top: 1rem;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin-left: 140px;
+  font-size: 1.3rem; }
+  .fMenu a {
+    color: #f6f6f6; }
+
+.fContacto {
+  grid-area: fContacto;
   display: flex;
   flex-direction: column;
-  color: #f6f6f6;
-  font-weight: bold; }
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 10px;
+  margin-left: 170px;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  color: #f6f6f6; }
 
-.contactos h5 {
-  line-height: 1.5; }
-
-/*
-.redes{
-    display: flex;
-    flex-direction: column;
-    padding-top: 2rem;
-    color:#f6f6f6;
-}
-.redes a{
-    display: flex;
-    flex-direction: column;
-    line-height: 2;
-    margin-left: 1rem;
-}
-*/
-.legales {
+.fRedes {
+  grid-area: fRedes;
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 45px;
+  margin-bottom: 20px; }
+
+.legal {
+  grid-area: legal;
+  display: flex;
+  background-color: #0f0f0f;
   justify-content: center;
   align-items: center;
-  font-size: x-small;
-  font-weight: bold;
-  color: #f6f6f6; }
+  padding-top: 15px;
+  color: #D6E4F0; }
 
 .tituloI, .tituloP, .tituloC {
   color: burlywood;

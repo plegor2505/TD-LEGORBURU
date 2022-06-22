@@ -385,6 +385,45 @@ a {
   font-size: 55px;
   margin: 2rem 0rem 0rem 3rem; }
 
+.ObsSubtitulo {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #f6f6f6; }
+
+.ObsParrafo1, .ObsParrafo2 {
+  font-size: 1.5rem;
+  color: #f6f6f6;
+  text-align: justify;
+  line-height: 1.5; }
+
+.colorIt {
+  color: burlywood; }
+
+.ObsParrafo2 {
+  margin-left: 50px; }
+
+.tablero {
+  background-color: burlywood;
+  border-radius: 15px;
+  padding: 25px; }
+
+.titTablero, .IrTab {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1E56A0;
+  text-align: center; }
+
+.parrTab {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #163172;
+  line-height: 1.5;
+  text-align: center; }
+
+.IrTab {
+  margin-top: 20px; }
+
 .tituloC {
   font-size: 45px;
   text-align: center;

@@ -3,3 +3,44 @@
    font-size: $fsize - 5;
    margin: 2rem 0rem 0rem 3rem;
 }
+.ObsSubtitulo{
+font-size: 2rem;
+font-weight: bold;
+text-decoration: underline;
+color: $color5;
+}
+.ObsParrafo1{
+   font-size: 1.5rem;
+   color: $color5;
+   text-align: justify;
+   line-height: 1.5;
+}
+.colorIt{
+   color: $color3;
+}
+.ObsParrafo2{
+   @extend .ObsParrafo1;
+   margin-left: 50px;
+}
+.tablero{
+   background-color:$color3;
+   border-radius: 15px;
+   padding: 25px;
+}
+.titTablero{
+   font-size: 2rem;
+   font-weight: bold;
+   color: $color2;
+   text-align: center;
+}
+.parrTab{
+   font-size: 1.5rem;
+   font-weight: bold;
+   color: $color1;
+   line-height: 1.5;
+   text-align: center;
+}
+.IrTab{
+   @extend .titTablero;
+   margin-top: 20px;
+}

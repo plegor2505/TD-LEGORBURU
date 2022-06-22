@@ -156,19 +156,18 @@ a {
   font-size: 55px;
   margin: 2rem 0rem 0rem 3rem; }
 
-.bgsection {
-  background-color: #D6E4F0;
+.bgsection1 {
   background-color: blanchedalmond;
   width: 65rem;
   height: 700px;
   padding: 10px; }
-  .bgsection .subtitulo1 {
+  .bgsection1 .subtit1 {
     font-size: 30px;
     color: #1E56A0;
     font-weight: bold;
     text-align: center; }
 
-.subtitulo2 {
+.subtit2 {
   font-size: 55px;
   color: #163172;
   font-weight: bold;
@@ -266,16 +265,39 @@ a {
   margin-right: 20px;
   margin-top: 20px; }
 
+.bgsection2 {
+  background-color: #1E56A0;
+  width: 65rem;
+  height: 700px;
+  padding: 10px; }
+  .bgsection2 .subtit3 {
+    font-size: 30px;
+    color: #D6E4F0;
+    font-weight: bold;
+    text-align: center; }
+
+.subtit4 {
+  font-size: 55px;
+  color: #f6f6f6;
+  font-weight: bold;
+  text-align: center; }
+
 .presidente {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; }
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 200px;
+  color: burlywood; }
 
-.directores1 {
+.directores1, .directores2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around; }
+
+.directores2 {
+  color: burlywood;
+  margin-top: 10px;
+  margin-left: 25px; }
 
 /* CSS MAIN PAGE PROGRAMAS Y SERVICIOS */
 .tituloP {
@@ -406,7 +428,7 @@ a {
 .tablero {
   background-color: burlywood;
   border-radius: 15px;
-  padding: 25px; }
+  padding: 20px; }
 
 .titTablero, .IrTab {
   font-size: 2rem;

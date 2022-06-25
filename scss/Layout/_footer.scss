@@ -1,10 +1,12 @@
 .fContainer{
+    background-color:#14254cde;
+    border-top: solid 2px $color6;
+    border-radius: 10px;
     display: grid;
     width: 100%;
     height: auto;
     padding-top: 1rem;
     margin-top: 1rem;
-    border-top: solid 2px $color5;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 40px 220px 30px;
     grid-template-areas: 
@@ -18,7 +20,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
-    color: $color3;
+    color: $color6;
     font-weight: bold;
 }
 .fMenu{
@@ -58,6 +60,7 @@
     grid-area: legal;
     display: flex;
     background-color: rgb(15, 15, 15);
+    border-top: solid 2px $color6;
     justify-content:center;
     align-items:center;
     padding-top: 15px;

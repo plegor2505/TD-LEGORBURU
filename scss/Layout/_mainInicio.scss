@@ -1,25 +1,20 @@
 .tituloI{
-    color: $color7;
+    color: $color3;
     font-size: $fsize;
-    font-weight:bold;
+    font-weight: bold;
     margin-top: 5rem;
     text-align: center;
 }
-.animation1{
-    animation-name: animation1;
-    animation-duration: 6s;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-}
-@keyframes animation1 {
-    0%{color: $color6;}
-    50%{color: $color3;}
-    100%{color: $color6;}
-}
-.subTituloI{
-    padding: 70px 200px;
-    color: $color5;
-    font-size: $fsize - 10;
+.h2Inicio1{
+    color: $color7;
     text-align: center;
+    padding: 0px 80px; 
+    margin: 2rem 2rem 4rem 2rem;
+}
+.h2Inicio2{
+    color: $color3;
+    font-size: 3rem;
+    text-align: center;
+    padding: 0px 80px; 
     margin: 2rem 2rem 4rem 2rem;
 }

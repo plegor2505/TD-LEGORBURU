@@ -1,18 +1,13 @@
 .tituloP{
     @extend .tituloI;
-    font-size: $fsize - 5;
+    font-size: $fsize - 10;
     margin: 2rem 0rem 0rem 3rem;
 }
-.bajada2{
-    font-size: 35px;
-    font-weight: bold;
-    text-align: justify;
+.pPubynews{
     color: $color7;
-    line-height: 1.4;
-    padding: 2rem ;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    border-bottom: solid 1px $color5;
+    text-align: justify;
+    padding: 1rem 2rem;
+    border-bottom: solid 1px $color3;
 }
 .fila1{
     background-image: url(../../imgFoto/library10.jpg);       
@@ -55,7 +50,7 @@ height: auto;
     margin-left: 10rem ;
 }
 .parrafo{
-    background-color:rgba(111, 88, 59, 0.346);
+    background-color:rgba(111, 88, 59, 0.449);
     width: 600px;
     height: 420px;
     margin-top: 8rem;

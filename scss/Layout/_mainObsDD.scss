@@ -1,7 +1,16 @@
 .tituloP{
    @extend .tituloI; 
-   font-size: $fsize - 5;
+   font-size: $fsize - 10;
    margin: 2rem 0rem 0rem 3rem;
+}
+.h2Obser{
+   color: $color7;
+}
+.pObser{
+   color: $color7;
+   text-align: justify;
+   padding: 5px 2rem;
+   border-bottom: solid 1px $color3;
 }
 .ObsSubtitulo{
 font-size: 2rem;

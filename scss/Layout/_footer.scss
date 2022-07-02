@@ -20,19 +20,21 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
-    color: $color6;
+    color: $color7;
     font-weight: bold;
 }
 .fMenu{
     grid-area: fMenu;
     display: flex;
     flex-direction: column;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: flex-start;
-    margin-left: 140px;
+    padding: 10px 0px 10px 0px;
+    margin-left: 180px;
     font-size: 1.3rem;
     a{
-    color: $color5;
+        color: $color6;
+        font-weight: 600;
     }
 }
 .fContacto{
@@ -41,11 +43,11 @@
     flex-direction: column;
     justify-content:space-evenly;
     align-items: flex-start;
-    padding-top: 10px;
+    padding-top: 3px;
     margin-left: 170px;
     margin-bottom: 15px;
     font-size: 1.4rem;
-    color: $color5;
+    color: $color7;
 }
 .fRedes{
     grid-area: fRedes;
@@ -64,5 +66,5 @@
     justify-content:center;
     align-items:center;
     padding-top: 15px;
-    color: $color4
+    color: $color7;
 }

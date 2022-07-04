@@ -343,15 +343,9 @@ a {
   padding: 1rem 2rem;
   border-bottom: solid 1px #b8a775; }
 
-.fila1 {
-  background-image: url(../../imgFoto/library10.jpg); }
-
 .carrousel {
   width: 40%;
   height: auto; }
-
-.fila2 {
-  background-image: url(../); }
 
 .titFormSus {
   color: white;
@@ -491,3 +485,9 @@ a {
   text-align: center;
   color: white;
   margin: 5px 5px; }
+
+.fila1 {
+  background-image: url(../imgFoto/library10.jpg); }
+
+.fila2 {
+  background-image: url(../imgFoto/library10.jpg); }

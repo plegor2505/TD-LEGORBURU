@@ -319,6 +319,7 @@ color: red;
   font-size: 2.5rem;
   font-weight: bold;
   background-color: #e7ddbd48;
+  border-radius: 15px;
   margin-top: 3.1rem;
   text-align: center;
   color: white;
@@ -340,11 +341,6 @@ color: red;
 
 .ppysParrafo2 {
   margin-right: 25px; }
-
-.row3 {
-  border-radius: 20px;
-  background-image: url(../../imgFoto/img2-PPyS.png);
-  padding: 25px 10px; }
 
 .ppysSubtitulo2 {
   margin-top: 0.2rem; }
@@ -500,3 +496,7 @@ color: red;
 
 .fila2 {
   background-image: url(../imgFoto/library10.jpg); }
+
+.row3 {
+  background-image: url(../../imgFoto/img2-PPyS.png);
+  padding: 25px 10px; }

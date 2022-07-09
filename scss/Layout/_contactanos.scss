@@ -1,11 +1,13 @@
 .tituloC{
-    @extend .tituloI;
+    @extend .tituloQ;
     font-size: $fsize - 20;
     display: flex;
     justify-content: center;
+    margin-left: 0.4rem;
     margin-top: 0.5rem;
     margin-bottom: 0.4rem;
 }
+/*
 .animation1{
     animation-name: animation1;
     animation-duration: 6s;
@@ -13,12 +15,13 @@
     animation-iteration-count: infinite;
 }
 @keyframes animation1{
-    0%{color: $color3;}
+    0%{color: $color9;}
     25%{color: blue;}
     50%{color: greenyellow;}
     75%{color: blue;}
-    100%{color: $color3;}
+    100%{color: $color9;}
 }
+*/
 .forMensaje{
     background-color: $color1;
     border-radius: 15px;
@@ -29,7 +32,7 @@
     color: $color7;
 }
 .btnEnviar{
-    background-color:$color3;
+    background-color:$color10;
     width: 9rem;
     height: 4rem;
     font-size: 1.7rem;

@@ -1,8 +1,3 @@
-.tituloP{
-   @extend .tituloI; 
-   font-size: $fsize - 10;
-   margin: 2rem 0rem 0rem 3rem;
-}
 .h2Obser{
    color: $color7;
 }
@@ -12,13 +7,13 @@
    padding: 5px 2rem;
    border-bottom: solid 1px $color3;
 }
-.ObsSubtitulo{
+.obsSubtitulo{
 font-size: 2rem;
 font-weight: bold;
 text-decoration: underline;
 color: $color5;
 }
-.ObsParrafo1{
+.obsParrafo1{
    font-size: 1.5rem;
    color: $color5;
    text-align: justify;
@@ -27,25 +22,25 @@ color: $color5;
 .colorIt{
    color: $color3;
 }
-.ObsParrafo2{
-   @extend .ObsParrafo1;
+.obsParrafo2{
+   @extend .obsParrafo1;
    margin-left: 50px;
 }
 .tablero{
-   background-color:$color3;
+   background-color:$color12;
    border-radius: 15px;
    padding: 20px;
 }
 .titTablero{
    font-size: 2rem;
    font-weight: bold;
-   color: $color2;
+   color: $color11;
    text-align: center;
 }
 .parrTab{
    font-size: 1.5rem;
    font-weight: bold;
-   color: $color1;
+   color: $color7;
    line-height: 1.5;
    text-align: center;
 }

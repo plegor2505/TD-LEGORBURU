@@ -4,27 +4,30 @@
 .pObser{
    color: $color7;
    text-align: justify;
-   padding: 5px 2rem;
-   border-bottom: solid 1px $color3;
+   padding: 1.5rem 2rem;
+   border-bottom: solid 2px $color3;
 }
 .obsSubtitulo{
-font-size: 2rem;
+font-size: 2.5rem;
 font-weight: bold;
-text-decoration: underline;
-color: $color5;
+color: $color7;
+margin-left: 30px;
 }
 .obsParrafo1{
-   font-size: 1.5rem;
-   color: $color5;
+   font-size: 1.6rem;
+   color: $color7;
    text-align: justify;
    line-height: 1.5;
 }
 .colorIt{
-   color: $color3;
+   color: $color11;
+}
+.row2{
+   border-bottom: solid 2px $color3;
 }
 .obsParrafo2{
    @extend .obsParrafo1;
-   margin-left: 50px;
+   margin-right: 20px;
 }
 .tablero{
    background-color:$color12;
@@ -32,9 +35,9 @@ color: $color5;
    padding: 20px;
 }
 .titTablero{
-   font-size: 2rem;
+   font-size: 2.3rem;
    font-weight: bold;
-   color: $color11;
+   color: $color9;
    text-align: center;
 }
 .parrTab{

@@ -318,7 +318,7 @@ color: red;
 .ppysSubtitulo1, .ppysSubtitulo2 {
   font-size: 2.5rem;
   font-weight: bold;
-  background-color: #e7ddbd48;
+  background-color: #e7ddbd4a;
   border-radius: 15px;
   margin-top: 3.1rem;
   text-align: center;
@@ -407,36 +407,39 @@ color: red;
 .pObser {
   color: white;
   text-align: justify;
-  padding: 5px 2rem;
-  border-bottom: solid 1px #9f8535; }
+  padding: 1.5rem 2rem;
+  border-bottom: solid 2px #9f8535; }
 
 .obsSubtitulo {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  text-decoration: underline;
-  color: #f6f6f6; }
+  color: white;
+  margin-left: 30px; }
 
 .obsParrafo1, .obsParrafo2 {
-  font-size: 1.5rem;
-  color: #f6f6f6;
+  font-size: 1.6rem;
+  color: white;
   text-align: justify;
   line-height: 1.5; }
 
 .colorIt {
-  color: #9f8535; }
+  color: #37c5f8; }
+
+.row2 {
+  border-bottom: solid 2px #9f8535; }
 
 .obsParrafo2 {
-  margin-left: 50px; }
+  margin-right: 20px; }
 
 .tablero {
-  background-color: #e7ddbd48;
+  background-color: #e7ddbd4a;
   border-radius: 15px;
   padding: 20px; }
 
 .titTablero, .IrTab {
-  font-size: 2rem;
+  font-size: 2.3rem;
   font-weight: bold;
-  color: #37c5f8;
+  color: #ff7c02;
   text-align: center; }
 
 .parrTab {
@@ -498,5 +501,5 @@ color: red;
   background-image: url(../imgFoto/library10.jpg); }
 
 .row3 {
-  background-image: url(../../imgFoto/img2-PPyS.png);
+  background-image: url(../imgFoto/img2-PPyS.png);
   padding: 25px 10px; }

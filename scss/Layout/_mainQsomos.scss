@@ -5,7 +5,7 @@
     margin: 2rem 0rem 0rem 3rem;
 }
 .bgsection1{
-    background-color: $color8;
+    background-image: radial-gradient(circle, $color7, $color3);
     width: 65rem;
     height: 700px;
     padding: 10px;
@@ -112,6 +112,7 @@
 }
 .bgsection2{
     background-color: $color2;
+    background-image: linear-gradient(to bottom, $color1, $color10);
     width: 65rem;
     height: 670px;
     padding: 10px;

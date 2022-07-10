@@ -1,5 +1,6 @@
 .h2Obser{
    color: $color7;
+   font-weight: bold;
 }
 .pObser{
    color: $color7;
@@ -22,8 +23,14 @@ margin-left: 30px;
 .colorIt{
    color: $color11;
 }
+.img1Obs{
+   transform: rotate(-3deg);
+}
 .row2{
    border-bottom: solid 2px $color3;
+}
+.img2Obs{
+   transform: rotate(3deg);
 }
 .obsParrafo2{
    @extend .obsParrafo1;
@@ -50,4 +57,8 @@ margin-left: 30px;
 .IrTab{
    @extend .titTablero;
    margin-top: 20px;
+}
+#icoT :hover{
+   animation: wobble;
+   animation-duration: 1.5s;
 }

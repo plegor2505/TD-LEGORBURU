@@ -5,8 +5,8 @@
 }
 .bgsection1{
     background-image: radial-gradient(circle, $color7, $color3);
-    width: 65rem;
-    height: 700px;
+    width:  65rem;
+    height: auto;
     padding: 10px;
     .subtit1{
         font-size: 30px;
@@ -26,7 +26,7 @@
         text-align: center;
         font-size: 35px;
         font-weight: bold;
-        margin-bottom: 3rem;
+        margin-bottom: 2.5rem;
 }
 .valores1{
     display: flex;
@@ -75,7 +75,12 @@
     margin-top: 20px;
 }
 .valores2{
-    @extend .valores1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 150px; 
+    margin-left: 90px;
     margin-top: 50px;
 }
 .icoInt{
@@ -113,8 +118,8 @@
     background-color: $color2;
     background-image: linear-gradient(to bottom, $color1, $color10);
     width: 65rem;
-    height: 670px;
-    padding: 10px;
+    height: auto;
+    padding-bottom: 20px;
     .subtit3{
         font-size: 30px;
         color: $color3;
@@ -164,5 +169,116 @@
     .linkedin{
         text-decoration-line: underline;
         color: blueviolet;
+    }
+}
+@media (max-width: 576px){
+    .bgsection1{
+        width: 100%;
+        height: 700px;
+    }
+    .parrafo1{
+        margin-bottom: 0.5rem;
+    }
+    .valores1{
+        background-color:rgba(58, 40, 18, 0.545);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height:80px; 
+        margin-left: 0px;
+        margin-bottom: 50px;
+    }
+    .icoInn{
+        display: none;
+    }
+    .icoTra{
+        display: none;
+    }
+    .icoEfi{
+        display: none;
+    }
+    .innovacion{     
+        width: 1px;
+        height: auto;
+        margin-top: 1px;
+        font-size: 2.2rem;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 150px;
+        color:$color11;  
+    }
+    .transparencia{
+        width: 1px;
+        height: auto;
+        margin-top: 1px;
+        font-size: 2.2rem;
+        margin-bottom: 1px;
+        margin-left: 0px;
+        margin-right: 190px;
+        color:$color11;       
+    }
+    .eficiencia{
+        width: 1px;
+        height: auto;
+        margin-top: 1px;
+        font-size: 2.2rem;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 130px;
+        color:$color11;
+    }
+    .valores2{
+        background-color:rgba(58, 40, 18, 0.545);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height:80px; 
+        margin-left: 0px;
+        margin-bottom: 150px;
+    }
+    .icoInt{
+        display: none;
+    }
+    .icoCal{
+        display: none;
+    }
+    .icoCom{
+        display: none;
+    }
+    .integridad{
+        width: 1px;
+        height: auto;
+        margin-top: 1px;
+        font-size: 2.2rem;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 170px;
+        color:$color11;      
+    }
+    .calidad{
+        width: 1px;
+        height: auto;
+        margin-top: 1px;
+        font-size: 2.2rem;
+        margin-bottom: 1px;
+        margin-left: 0px;
+        margin-right: 120px;
+        color:$color11;  
+    }
+    .compromiso{ 
+        width: 1px;
+        height: auto;
+        margin-top: 1px;
+        font-size: 2.2rem;
+        margin-bottom: 1px;
+        margin-left: 1px;
+        margin-right: 160px;
+        color:$color11;       
+    }
+    .bgsection2{
+        width: 100%;
+        height: auto;
     }
 }

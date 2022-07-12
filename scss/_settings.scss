@@ -16,3 +16,8 @@ li{
 a{
     text-decoration: none;
 }
+@media (max-width: 576px){
+    body{
+        background-image: url(../imgFoto/bg-inicio2.jpg);
+    }
+}

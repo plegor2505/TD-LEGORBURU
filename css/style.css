@@ -16,9 +16,13 @@ li {
 a {
   text-decoration: none; }
 
+@media (max-width: 576px) {
+  body {
+    background-image: url(../imgFoto/bg-inicio2.jpg); } }
+
 /*mixin ----*/
 .header {
-  background-color: #2c4f9f9f;
+  background-color: #4b6fc19f;
   border-radius: 10px; }
   .header .navbar-brand img {
     width: 9rem;
@@ -50,7 +54,7 @@ a {
   margin-left: 5px; }
 
 .fContainer {
-  background-color: #2c4f9f9f;
+  background-color: #4b6fc19f;
   border-top: solid 2px lightgrey;
   border-radius: 10px;
   display: grid;
@@ -169,7 +173,7 @@ a {
 .bgsection1 {
   background-image: radial-gradient(circle, white, #9f8535);
   width: 65rem;
-  height: 700px;
+  height: auto;
   padding: 10px; }
   .bgsection1 .subtit1 {
     font-size: 30px;
@@ -188,9 +192,9 @@ a {
   text-align: center;
   font-size: 35px;
   font-weight: bold;
-  margin-bottom: 3rem; }
+  margin-bottom: 2.5rem; }
 
-.valores1, .valores2 {
+.valores1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -235,6 +239,12 @@ a {
   margin-top: 20px; }
 
 .valores2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 150px;
+  margin-left: 90px;
   margin-top: 50px; }
 
 .icoInt {
@@ -269,8 +279,8 @@ a {
   background-color: #1E56A0;
   background-image: linear-gradient(to bottom, #163172, #3284fe);
   width: 65rem;
-  height: 670px;
-  padding: 10px; }
+  height: auto;
+  padding-bottom: 20px; }
   .bgsection2 .subtit3 {
     font-size: 30px;
     color: #9f8535;
@@ -316,6 +326,100 @@ a {
   .tag2 .linkedin {
     text-decoration-line: underline;
     color: blueviolet; }
+
+@media (max-width: 576px) {
+  .bgsection1 {
+    width: 100%;
+    height: 700px; }
+  .parrafo1 {
+    margin-bottom: 0.5rem; }
+  .valores1 {
+    background-color: rgba(58, 40, 18, 0.545);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    margin-left: 0px;
+    margin-bottom: 50px; }
+  .icoInn {
+    display: none; }
+  .icoTra {
+    display: none; }
+  .icoEfi {
+    display: none; }
+  .innovacion, .transparencia, .eficiencia, .integridad, .calidad, .compromiso {
+    width: 1px;
+    height: auto;
+    margin-top: 1px;
+    font-size: 2.2rem;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 150px;
+    color: #37c5f8; }
+  .transparencia {
+    width: 1px;
+    height: auto;
+    margin-top: 1px;
+    font-size: 2.2rem;
+    margin-bottom: 1px;
+    margin-left: 0px;
+    margin-right: 190px;
+    color: #37c5f8; }
+  .eficiencia {
+    width: 1px;
+    height: auto;
+    margin-top: 1px;
+    font-size: 2.2rem;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 130px;
+    color: #37c5f8; }
+  .valores2 {
+    background-color: rgba(58, 40, 18, 0.545);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    margin-left: 0px;
+    margin-bottom: 150px; }
+  .icoInt {
+    display: none; }
+  .icoCal {
+    display: none; }
+  .icoCom {
+    display: none; }
+  .integridad {
+    width: 1px;
+    height: auto;
+    margin-top: 1px;
+    font-size: 2.2rem;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 170px;
+    color: #37c5f8; }
+  .calidad {
+    width: 1px;
+    height: auto;
+    margin-top: 1px;
+    font-size: 2.2rem;
+    margin-bottom: 1px;
+    margin-left: 0px;
+    margin-right: 120px;
+    color: #37c5f8; }
+  .compromiso {
+    width: 1px;
+    height: auto;
+    margin-top: 1px;
+    font-size: 2.2rem;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 160px;
+    color: #37c5f8; }
+  .bgsection2 {
+    width: 100%;
+    height: auto; } }
 
 .tituloP, .tituloN {
   color: #9f8535; }
@@ -401,7 +505,7 @@ a {
   height: auto;
   padding: 15px 25px;
   margin-bottom: 1.5rem;
-  border: solid 3px #2c4f9f9f;
+  border: solid 3px #4b6fc19f;
   border-radius: 15px;
   background-color: #1E56A0;
   font-size: large;

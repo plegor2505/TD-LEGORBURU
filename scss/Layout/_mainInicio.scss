@@ -2,8 +2,8 @@
     color: $color9;
     font-size: $fsize;
     font-weight: bold;
-    margin-top: 4rem;
     text-align: center;
+    margin-top: 4rem;
 }
 .h2Inicio1{
     color: $color7;
@@ -18,4 +18,15 @@
     text-align: center;
     padding: 0px 80px; 
     margin: 2rem 2rem 4rem 2rem;
+}
+@media (max-width: 576px){
+.tituloI{
+    font-size: $fsize - 20px;
+    }
+.h2Inicio1{
+    font-size: 30px;
+    }
+.h2Inicio2{
+        font-size: 40px;
+    }
 }

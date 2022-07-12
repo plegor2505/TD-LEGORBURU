@@ -1,5 +1,5 @@
 .fContainer{
-    background-color:#14254cde;
+    background-color: $color5;
     border-top: solid 2px $color6;
     border-radius: 10px;
     display: grid;
@@ -20,7 +20,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-end;
-    color: $color11;
+    color: $color9;
     font-weight: bold;
 }
 .fMenu{
@@ -33,7 +33,7 @@
     margin-left: 180px;
     font-size: 1.3rem;
     a{
-        color: $color6;
+        color: $color7;
         font-weight: 600;
     }
 }
@@ -67,4 +67,27 @@
     align-items:center;
     padding-top: 15px;
     color: $color7;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 576px){
+.fMenu{
+    justify-content: space-around;
+    padding: 0px;
+    margin-left: 50px;
+    font-size: 1.1rem;
+    }
+.fContacto{
+    padding-top: 0px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    font-size: 0.5rem;
+    }
+.fRedes{
+    margin-right: 45px;
+    margin-bottom: 20px;
+    }
+.legal{
+    font-size: 0.9rem;
+    }
 }

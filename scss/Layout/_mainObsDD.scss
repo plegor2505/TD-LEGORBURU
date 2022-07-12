@@ -62,3 +62,19 @@ margin-left: 30px;
    animation: wobble;
    animation-duration: 1.5s;
 }
+@media (max-width: 576px){
+.obsParrafo1{
+   margin-right: 3rem;
+   }
+.obsParrafo2{
+   margin-right: 3rem;
+   }
+.img1Obs{
+   width: 600px;
+   height: 356px;
+   }
+.img2Obs{
+   width: 590px;
+   height: 450px;
+   }
+}

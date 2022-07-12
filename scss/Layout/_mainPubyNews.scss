@@ -7,29 +7,32 @@
     padding: 1rem 2rem;
     border-bottom: solid 1px $color3;
 }
+.divcarr{
+    display: flex;
+    align-items: center;
+}
 .carrousel{
-width: 40%;
+width: 45%;
 height: auto;
 }
 .titFormSus{
     color: $color7;
     font-size: 3rem;
     font-weight: bold;
+    text-align: center;
     margin-top: 1rem;
-    margin-left: 4rem;
 }
 .formSus{
     width: 500px;
-    height: 500px;
+    height: auto;
     padding: 15px 25px;
-    margin-left: 3rem;
     margin-bottom: 1.5rem;
     border: solid 3px $color5;
     border-radius: 15px;
     background-color: $color2;
     font-size: large;
     font-weight: bold;
-    color: $color5;
+    color: $color7;
 }
 .btnSubmit{
     background-color: $color3;
@@ -43,8 +46,8 @@ height: auto;
 }
 .parrafo{
     background-color:rgba(111, 88, 59, 0.449);
-    width: 600px;
-    height: 420px;
+    width: 500px;
+    height: auto;
     margin-top: 8rem;
     margin-bottom: 2rem;
     border-radius: 15px;
@@ -53,4 +56,15 @@ height: auto;
     text-align: justify;
     line-height: 1.7;
     color: $color7;
+}
+@media (max-width: 576px){
+    .titFormSus{
+        font-size: 2.5rem;
+        margin-top: 0.5rem;
+    }
+    .parrafo{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.7rem;
+    }
 }

@@ -1,17 +1,15 @@
 .tituloC{
     @extend .tituloQ;
     font-size: $fsize - 20;
-    display: flex;
-    justify-content: center;
-    margin-left: 0.4rem;
-    margin-top: 0.5rem;
+    margin-top: 0.4rem;
     margin-bottom: 0.4rem;
 }
 .forMensaje{
     background-color: $color1;
     border-radius: 15px;
     padding: 10px 20px;
-    width:40%;
+    width: 45%;
+    height: auto;
     font-weight: bold;
     font-size: larger;
     color: $color7;
@@ -25,4 +23,15 @@
     text-align: center;
     color: $color7;
     margin: 5px 5px;
+}
+@media (max-width: 576px){
+    .tituloC{
+        font-size: $fsize - 30;
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+    }
+    .forMensaje{
+        width: 70%;
+        height: auto;
+    }
 }

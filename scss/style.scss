@@ -12,6 +12,7 @@
 
 .fila1{
     background-image: url(../imgFoto/library10.jpg);
+    height: 900px;
 }
 
 .fila2{
@@ -21,4 +22,10 @@
 .row3{
     background-image: url(../imgFoto/img2-PPyS.png);
     padding: 25px 10px;
+}
+
+@media (max-width: 576px){
+    .fila1{
+        height: 400px;
+    }
 }

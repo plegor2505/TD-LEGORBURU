@@ -20,7 +20,6 @@ a {
   body {
     background-image: url(../imgFoto/bg-inicio2.jpg); } }
 
-/*mixin ----*/
 .header {
   background-color: #4b6fc19f;
   border-radius: 10px; }
@@ -526,7 +525,7 @@ a {
   background-color: rgba(111, 88, 59, 0.449);
   width: 500px;
   height: auto;
-  margin-top: 8rem;
+  margin-top: 5rem;
   margin-bottom: 2rem;
   border-radius: 15px;
   font-size: 2.2rem;

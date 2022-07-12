@@ -48,7 +48,7 @@ height: auto;
     background-color:rgba(111, 88, 59, 0.449);
     width: 500px;
     height: auto;
-    margin-top: 8rem;
+    margin-top: 5rem;
     margin-bottom: 2rem;
     border-radius: 15px;
     font-size: 2.2rem;
@@ -57,6 +57,7 @@ height: auto;
     line-height: 1.7;
     color: $color7;
 }
+
 @media (max-width: 576px){
     .titFormSus{
         font-size: 2.5rem;
